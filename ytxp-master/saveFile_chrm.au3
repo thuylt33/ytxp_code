@@ -1,0 +1,6 @@
+ControlFocus("Save As","","Edit1")
+ControlSetText("Save As","","Edit1",$CmdLine[1])
+ControlClick("Save As","","Button2")
+ControlFocus("Save As","","Edit1")
+ControlSetText("Save As","","Edit1",$CmdLine[2])
+ControlClick("Save As","","Button2")
